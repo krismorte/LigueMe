@@ -1,0 +1,17 @@
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\Ligueme.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\Ligueme.pdb
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\Newtonsoft.Json.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Net.Http.Formatting.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.Http.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.Http.WebHost.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\Newtonsoft.Json.xml
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Net.Http.Formatting.xml
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.Http.xml
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.Http.WebHost.xml
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\obj\Debug\Ligueme.csprojResolveAssemblyReference.cache
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\obj\Debug\Ligueme.dll
+c:\users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\obj\Debug\Ligueme.pdb
+C:\Users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\EntityFramework.dll
+C:\Users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\EntityFramework.SqlServer.dll
+C:\Users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\EntityFramework.xml
+C:\Users\krisnamourtscf\documents\visual studio 2012\Projects\Ligueme\Ligueme\bin\EntityFramework.SqlServer.xml
