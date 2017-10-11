@@ -15,7 +15,7 @@ namespace Ligueme.Controllers
     {
         private readonly LigueMeContext _context;
         private readonly IEnumerable<Parametros> _parametros;
-
+        
         public CentralController()
         {
             _context = new LigueMeContext();

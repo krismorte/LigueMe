@@ -25,6 +25,12 @@ namespace Ligueme.Models
         public void adicionaNumero(string numero)
         {
             numero = numero.Replace("(", "").Replace(")", "").Replace("-", "").Replace(" ", "");
+            
+            //remove 0 do código de área
+            if (numero.Substring(0, 1) == "0")
+            {
+                numero = numero.Substring(1, numero.Length-1);
+            }
 
             if (numero.Length < 8)
             {
