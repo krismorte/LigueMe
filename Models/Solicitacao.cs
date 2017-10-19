@@ -11,6 +11,8 @@ namespace Ligueme.Models
         [Required][MinLength(9)]
         public string numero { get; set; }
         public string fila { get; set; }
+        public string secret { get; set; }
+        public string response { get; set; }
 
     }
 }

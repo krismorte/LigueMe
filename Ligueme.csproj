@@ -118,7 +118,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CentralController.cs" />
     <Compile Include="Controllers\SolicitacaoController.cs" />
-    <Compile Include="Controllers\TesteController.cs" />
+    <Compile Include="Controllers\URLHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
