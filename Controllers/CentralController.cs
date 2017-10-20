@@ -71,6 +71,7 @@ namespace Ligueme.Controllers
             string responseFromServer = "";
 
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(URLHelper.URLGoogleCaptch(_parametros,solicitacao.response));
+            req.Proxy = GetWebProxy();
 
             using (WebResponse resp = req.GetResponse())
             using (Stream dataStream = resp.GetResponseStream())
@@ -106,6 +107,12 @@ namespace Ligueme.Controllers
             logMensage.data = data;
 
             new HttpClient().PostAsJsonAsync(URLHelper.URLCamedLog(_parametros), logMensage);           
+        }
+
+        private WebProxy GetWebProxy()
+        {
+            return new WebProxy(Parametros.BuscarValor("PROXYSERVER", _parametros)
+                , Int16.Parse(Parametros.BuscarValor("PROXYPORT", _parametros)));
         }
 
         private void GetErroCaptch(dynamic jsonResponse)
