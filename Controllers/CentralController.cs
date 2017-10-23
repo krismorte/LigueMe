@@ -29,13 +29,10 @@ namespace Ligueme.Controllers
         }
 
         [HttpPost]
-        public Ligacao adicionaLigacao([FromBody]Solicitacao solicitacao)
+        public Ligacao adicionaLigacao([FromBody]Solicitacao solicitacaoJson)
         {
-            this.solicitacao = solicitacao;
 
-            if (ModelState.IsValid)
-            {
-            }
+
             Ligacao ligacao = new Ligacao();
 
             if (ValidarCaptcha())
@@ -86,11 +83,21 @@ namespace Ligueme.Controllers
                 }
             }
 
+
             dynamic jsonResponse = new JavaScriptSerializer().DeserializeObject(responseFromServer);
 
-            GetErroCaptch(jsonResponse);
+            bool catptchaOk=jsonResponse == null || bool.Parse(jsonResponse["success"].ToString());
 
-            return jsonResponse == null || bool.Parse(jsonResponse["success"].ToString());
+            if (catptchaOk)
+            {
+                return catptchaOk;
+            }
+            else
+            {
+                GetErroCaptch(jsonResponse);
+                return catptchaOk;
+            }                        
+            
         }
         
 
