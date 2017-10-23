@@ -21,6 +21,7 @@ app.controller("ligueMeController", function($scope,$http){
             $scope.solicitacao.response=''
             console.log(myModal);
             myModal.style ='display: none;';
+            grecaptcha.reset();
         }, function errorCallback(response) {
             console.log('failed');
             alert("Ocorreu uma falha, tente mais tarde.");
