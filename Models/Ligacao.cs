@@ -41,7 +41,7 @@ namespace Ligueme.Models
             }
             else
             {
-                Telefone = numero;
+                Telefone =  numero;
             }
         }
 

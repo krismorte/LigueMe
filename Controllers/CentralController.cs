@@ -21,7 +21,7 @@ namespace Ligueme.Controllers
         private readonly IEnumerable<Parametros> _parametros;
         private Solicitacao solicitacao;
         private string errorMsgCaptcha;
-        
+
         public CentralController()
         {
             _context = new LigueMeContext();
@@ -31,7 +31,7 @@ namespace Ligueme.Controllers
         [HttpPost]
         public Ligacao adicionaLigacao([FromBody]Solicitacao solicitacaoJson)
         {
-
+            solicitacao = solicitacaoJson;
 
             Ligacao ligacao = new Ligacao();
 
@@ -45,29 +45,29 @@ namespace Ligueme.Controllers
 
                     ChamaURLCentralTelefonica(ligacao);
                     RegistraLigacao(ligacao);
-                    addLogMessage(1, "Ligação solicitada: " + ligacao.Telefone,"");
+                    addLogMessage(1, "Ligação solicitada: " + ligacao.Telefone, "");
                 }
                 catch (Exception ex)
                 {
-                    addLogMessage(3, ex.Message,"");
-                    throw ex;
+                    addLogMessage(3, ex.Message, "");
+                    //throw ex;
                 }
             }
             else
             {
                 addLogMessage(1, "ErrorCaptcha: " + ligacao.Telefone, errorMsgCaptcha);
                 errorMsgCaptcha = "";
-            }            
-                        
+            }
+
             return ligacao;
         }
 
 
         private bool ValidarCaptcha()
-        {                                   
+        {
             string responseFromServer = "";
 
-            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(URLHelper.URLGoogleCaptch(_parametros,solicitacao.response));
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(URLHelper.URLGoogleCaptch(_parametros, solicitacao.response));
             req.Proxy = GetWebProxy();
 
             using (WebResponse resp = req.GetResponse())
@@ -86,7 +86,7 @@ namespace Ligueme.Controllers
 
             dynamic jsonResponse = new JavaScriptSerializer().DeserializeObject(responseFromServer);
 
-            bool catptchaOk=jsonResponse == null || bool.Parse(jsonResponse["success"].ToString());
+            bool catptchaOk = jsonResponse == null || bool.Parse(jsonResponse["success"].ToString());
 
             if (catptchaOk)
             {
@@ -96,24 +96,24 @@ namespace Ligueme.Controllers
             {
                 GetErroCaptch(jsonResponse);
                 return catptchaOk;
-            }                        
-            
+            }
+
         }
-        
+
 
         private void ChamaURLCentralTelefonica(Ligacao ligacao)
         {
             new HttpClient().PostAsync(URLHelper.URLCentralTelefonica(_parametros, ligacao), null);
         }
 
-        private void addLogMessage(int level,string message,string data)
-        {                        
+        private void addLogMessage(int level, string message, string data)
+        {
             Log logMensage = new Log();
-            logMensage.level=level;
-            logMensage.message=message;
+            logMensage.level = level;
+            logMensage.message = message;
             logMensage.data = data;
 
-            new HttpClient().PostAsJsonAsync(URLHelper.URLCamedLog(_parametros), logMensage);           
+            new HttpClient().PostAsJsonAsync(URLHelper.URLCamedLog(_parametros), logMensage);
         }
 
         private WebProxy GetWebProxy()

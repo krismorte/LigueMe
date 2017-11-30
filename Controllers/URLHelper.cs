@@ -19,8 +19,8 @@ namespace Ligueme.Controllers
         {
             string url = Parametros.BuscarValor("URL", _parametros);
 
-            url = url.Replace("{RAMAL}", ligacao.Telefone);
-            url = url.Replace("{FONE}", ligacao.Fila.Ramal);
+            url = url.Replace("{RAMAL}",ligacao.Fila.Ramal );
+            url = url.Replace("{FONE}", ligacao.Telefone);
 
             return url;
 
