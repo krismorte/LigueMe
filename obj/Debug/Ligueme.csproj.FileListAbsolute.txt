@@ -29,3 +29,24 @@ C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bi
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.xml
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.Deployment.xml
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.Razor.xml
+D:\Kris\github\LigueMe\bin\Ligueme.dll.config
+D:\Kris\github\LigueMe\bin\Ligueme.dll
+D:\Kris\github\LigueMe\bin\Ligueme.pdb
+D:\Kris\github\LigueMe\bin\Newtonsoft.Json.dll
+D:\Kris\github\LigueMe\bin\EntityFramework.xml
+D:\Kris\github\LigueMe\bin\EntityFramework.SqlServer.xml
+D:\Kris\github\LigueMe\bin\System.Net.Http.Formatting.xml
+D:\Kris\github\LigueMe\bin\System.Web.Helpers.xml
+D:\Kris\github\LigueMe\bin\System.Web.Http.xml
+D:\Kris\github\LigueMe\bin\System.Web.Http.WebHost.xml
+D:\Kris\github\LigueMe\bin\System.Web.Mvc.xml
+D:\Kris\github\LigueMe\bin\System.Web.Razor.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Deployment.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Razor.xml
+D:\Kris\github\LigueMe\obj\Debug\Ligueme.csprojAssemblyReference.cache
+D:\Kris\github\LigueMe\obj\Debug\Ligueme.csproj.CoreCompileInputs.cache
+D:\Kris\github\LigueMe\obj\Debug\Ligueme.csproj.CopyComplete
+D:\Kris\github\LigueMe\obj\Debug\Ligueme.dll
+D:\Kris\github\LigueMe\obj\Debug\Ligueme.pdb
+D:\Kris\github\LigueMe\bin\Newtonsoft.Json.xml
