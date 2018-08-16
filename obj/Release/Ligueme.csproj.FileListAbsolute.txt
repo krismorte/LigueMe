@@ -29,3 +29,39 @@ C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bi
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.xml
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.Deployment.xml
 C:\Users\krisnamourtscf\Documents\Visual Studio 2012\Projects\Ligueme\Ligueme\bin\System.Web.WebPages.Razor.xml
+D:\Kris\github\LigueMe\bin\Ligueme.dll.config
+D:\Kris\github\LigueMe\bin\Ligueme.dll
+D:\Kris\github\LigueMe\bin\Ligueme.pdb
+D:\Kris\github\LigueMe\bin\Microsoft.Web.Helpers.dll
+D:\Kris\github\LigueMe\bin\Microsoft.Web.Infrastructure.dll
+D:\Kris\github\LigueMe\bin\Newtonsoft.Json.dll
+D:\Kris\github\LigueMe\bin\System.Net.Http.Formatting.dll
+D:\Kris\github\LigueMe\bin\System.Web.Helpers.dll
+D:\Kris\github\LigueMe\bin\System.Web.Http.dll
+D:\Kris\github\LigueMe\bin\System.Web.Http.WebHost.dll
+D:\Kris\github\LigueMe\bin\System.Web.Mvc.dll
+D:\Kris\github\LigueMe\bin\System.Web.Razor.dll
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Deployment.dll
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.dll
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Razor.dll
+D:\Kris\github\LigueMe\bin\WebMatrix.Data.dll
+D:\Kris\github\LigueMe\bin\WebMatrix.WebData.dll
+D:\Kris\github\LigueMe\bin\EntityFramework.xml
+D:\Kris\github\LigueMe\bin\EntityFramework.SqlServer.xml
+D:\Kris\github\LigueMe\bin\Microsoft.Web.Infrastructure.xml
+D:\Kris\github\LigueMe\bin\Newtonsoft.Json.xml
+D:\Kris\github\LigueMe\bin\System.Net.Http.Formatting.xml
+D:\Kris\github\LigueMe\bin\System.Web.Helpers.xml
+D:\Kris\github\LigueMe\bin\System.Web.Http.xml
+D:\Kris\github\LigueMe\bin\System.Web.Http.WebHost.xml
+D:\Kris\github\LigueMe\bin\System.Web.Mvc.xml
+D:\Kris\github\LigueMe\bin\System.Web.Razor.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Deployment.xml
+D:\Kris\github\LigueMe\bin\System.Web.WebPages.Razor.xml
+D:\Kris\github\LigueMe\bin\WebMatrix.Data.xml
+D:\Kris\github\LigueMe\bin\WebMatrix.WebData.xml
+D:\Kris\github\LigueMe\obj\Release\Ligueme.csproj.CoreCompileInputs.cache
+D:\Kris\github\LigueMe\obj\Release\Ligueme.csproj.CopyComplete
+D:\Kris\github\LigueMe\obj\Release\Ligueme.dll
+D:\Kris\github\LigueMe\obj\Release\Ligueme.pdb

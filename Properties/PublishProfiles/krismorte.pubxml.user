@@ -10,61 +10,73 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>10/06/2017 10:38:59</publishTime>
+      <publishTime>06/13/2018 08:33:56</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>10/06/2017 10:38:59</publishTime>
+      <publishTime>06/13/2018 08:33:56</publishTime>
     </File>
     <File Include="bin/Ligueme.dll">
-      <publishTime>11/30/2017 09:29:27</publishTime>
+      <publishTime>08/13/2018 10:58:06</publishTime>
+    </File>
+    <File Include="bin/Ligueme.pdb">
+      <publishTime>08/13/2018 10:58:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Helpers.dll">
+      <publishTime>05/10/2018 22:41:30</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>07/19/2012 10:59:52</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>10/11/2017 12:47:42</publishTime>
+      <publishTime>03/14/2016 21:30:06</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
-      <publishTime>10/11/2017 12:47:42</publishTime>
+      <publishTime>05/10/2018 22:38:56</publishTime>
     </File>
     <File Include="bin/System.Web.Cors.dll">
-      <publishTime>10/11/2017 10:40:51</publishTime>
+      <publishTime>06/13/2018 08:33:56</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.Http.Cors.dll">
       <publishTime>10/11/2017 10:40:51</publishTime>
     </File>
     <File Include="bin/System.Web.Http.dll">
-      <publishTime>10/11/2017 12:47:42</publishTime>
+      <publishTime>05/10/2018 22:39:16</publishTime>
     </File>
     <File Include="bin/System.Web.Http.WebHost.dll">
-      <publishTime>10/11/2017 12:47:42</publishTime>
+      <publishTime>05/10/2018 22:41:08</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:38:08</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:38:32</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>10/11/2017 12:49:31</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.Data.dll">
+      <publishTime>05/10/2018 22:41:32</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.WebData.dll">
+      <publishTime>05/10/2018 22:42:18</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>09/04/2017 10:38:57</publishTime>
+      <publishTime>06/13/2018 08:33:55</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/11/2017 12:50:01</publishTime>
+      <publishTime>08/10/2018 13:50:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/11/2017 13:16:32</publishTime>
+      <publishTime>08/13/2018 10:58:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

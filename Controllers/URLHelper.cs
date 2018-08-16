@@ -26,6 +26,19 @@ namespace Ligueme.Controllers
 
         }
 
+        public static bool ProxyEnabled(IEnumerable<Parametros> _parametros)
+        {
+            string answer = Parametros.BuscarValor("PROXYENABLE", _parametros);
+            if (answer == "YES")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public static string URLGoogleCaptch(IEnumerable<Parametros> _parametros,string response)
         {
 

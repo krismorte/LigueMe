@@ -68,7 +68,11 @@ namespace Ligueme.Controllers
             string responseFromServer = "";
 
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(URLHelper.URLGoogleCaptch(_parametros, solicitacao.response));
-            req.Proxy = GetWebProxy();
+            if (URLHelper.ProxyEnabled(_parametros))
+            {
+                req.Proxy = GetWebProxy();
+            }
+            
 
             using (WebResponse resp = req.GetResponse())
             using (Stream dataStream = resp.GetResponseStream())
